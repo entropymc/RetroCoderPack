@@ -5,7 +5,7 @@ buildscript {
         maven { url = 'https://maven.minecraftforge.net' }
     }
     dependencies {
-        classpath 'com.ancientmc.acp:acp-gradle:0.2.0-beta+'
+        classpath 'com.ancientmc.acp:acp-gradle:0.2.0.+'
         classpath 'io.github.moist-mason:license-importer:1.0'
     }
 }
@@ -59,7 +59,7 @@ tasks.withType(JavaExec) {
     systemProperty 'java.library.path', Paths.DIR_NATIVES
 }
 
-task setup() {
+task decompile() {
     dependsOn(':makeOriginalHashes')
 }
 
