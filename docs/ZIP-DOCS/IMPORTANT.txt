@@ -1,2 +1,0 @@
-The "AncientCoderPack" folder in this ZIP file (or root folder if you've extracted the ZIP already) is what gets imported into your IDE,
-or where you should run your CLI.
