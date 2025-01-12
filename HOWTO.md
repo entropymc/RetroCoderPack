@@ -20,7 +20,7 @@ To decompile Minecraft, go into either your CLI or wherever your IDE stores Grad
 
 This should only take a minute or two, depending on your computer and if the initial setup hasn't happened.
 
-The source files are located in src/main/java/net/minecraft/. Resources are located in src/main/resources.
+The source files are located in "src/main/java/net/minecraft/". Resources are located in "src/main/resources".
 
 ### Decompilation (ModLoader) ###
 ACP supports Risugami's ModLoader, the predecessor to Minecraft Forge. If you want to decompile Minecraft with the ModLoader pre-installed,
@@ -30,7 +30,7 @@ do the following:
 - Run the `downloadModLoader` Gradle task. This downloads a LZMA file containing the ModLoader classes as binary patches.
 - Then run the `decompile` task as normal.
 
-Two classes are installed into the "net/minecraft/src/" package: ModLoader.java, the core loading class, and BaseMod.java, which is 
+Two classes are installed into the "net/minecraft/src" package: ModLoader.java, the core loading class, and BaseMod.java, which is 
 the base file you need to extend your ModLoader mod from. 
 
 If you want an example mod for Alpha 1.2.6 (as well as some documentation), check out [AncientMC's Ruby Mod](https://github.com/ancientmc/Alpha-Ruby-Mod).
