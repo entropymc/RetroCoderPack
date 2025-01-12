@@ -3,6 +3,7 @@ Thank you for downloading Ancient Coder Pack! You are using Beta 0.2.0.
 
 ### Requirements ###
 - Java 8
+
 The Temurin version of OpenJDK 8 (AKA 1.8) can be found on Eclipse Adoptium's [website](https://adoptium.net/temurin/releases/?version=8).
 
 ### Initial setup ###
