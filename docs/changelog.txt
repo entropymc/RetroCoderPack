@@ -1,4 +1,4 @@
-Beta 0.2.0-pre1 (2025-?-??)
+Beta 0.2.0-pre1 (2025-01-12)
 - This version uses a revamped ACP-Gradle plugin. See the ACP-Gradle repo for a detailed overview of all the changes made.
   These changes, in part, are designed to encourage greater flexibility between adding different MC versions for ACP.
   Link: https://github.com/ancientmc/acp-gradle/commit/7833c966c7bbcb47d9aa8ea18533ddf1e9c59ba0
@@ -9,19 +9,19 @@ Beta 0.2.0-pre1 (2025-?-??)
   easily making and distributing patch files that you can show in a repository (if you’re editing vanilla code).
 
 
-Beta 0.1.2 (2023-4-05)
+Beta 0.1.2 (2023-04-05)
 - More params
 - Attribution for params.
 
-Beta 0.1.1 (2023-2-25)
+Beta 0.1.1 (2023-02-25)
 - Fixed error in RenderSorter.java patch
 - Fixed some minor param inconsistencies/errors
 - Updated Gradle JVM args from 512MB to 2GB
 
-Beta 0.1.0 (2023-2-07)
+Beta 0.1.0 (2023-02-07)
 - Added some more params
 
-Beta 0.1.0-pre2 (2023-1-26)
+Beta 0.1.0-pre2 (2023-01-26)
 - Added custom license / removed DO's-AND-DONT's.md
 - Updated patches
 - The player's head now rotates with the mouse in third-person.
