@@ -2,7 +2,7 @@ buildscript {
     repositories {
         mavenCentral()
         maven { url = 'https://github.com/ancientmc/ancientmc-maven/raw/maven' }
-        maven { url = 'https://maven.minecraftforge.net' }
+        maven { url = 'https://maven.neoforged.net' }
     }
     dependencies {
         classpath 'com.ancientmc.acp:acp-gradle:0.2.0.+'
@@ -26,7 +26,7 @@ targetCompatibility = '1.6'
 
 repositories {
     maven { url = 'https://libraries.minecraft.net' }
-    maven { url = 'https://maven.minecraftforge.net/' }
+    maven { url = 'https://maven.neoforged.net/' }
     maven { url = 'https://github.com/ancientmc/ancientmc-maven/raw/maven/' }
 }
 
