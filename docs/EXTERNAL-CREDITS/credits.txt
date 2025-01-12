@@ -1,14 +1,14 @@
 == JarSplitter ==
 Use: Splitting Minecraft's JAR file into two components: a file containing the sources, and a file containing resource files (textures, etc.)
-Developers: Minecraft Forge
-Repository: https://github.com/MinecraftForge/JarSplitter
-License: GNU Lesser General Public License v2.1, https://github.com/MinecraftForge/JarSplitter/blob/master/LICENSE.txt
+Developers: Neoforged
+Repository: https://github.com/neoforged/InstallerTools
+License: GNU Lesser General Public License v2.1, https://github.com/neoforged/InstallerTools/blob/master/LICENSE.txt
 
-== ForgeAutoRenamingTool ==
+== AutoRenamingTool ==
 Use: Deobfuscating Minecraft's source code.
-Developers: Minecraft Forge
-Repository: https://github.com/MinecraftForge/ForgeAutoRenamingTool
-License: GNU Lesser General Public License v2.1, https://github.com/MinecraftForge/ForgeAutoRenamingTool/blob/master/LICENSE.txt
+Developers: Neoforged
+Repository: https://github.com/neoforged/AutoRenamingTool
+License: GNU Lesser General Public License v2.1, https://github.com/neoforged/AutoRenamingTool/blob/master/LICENSE.txt
 
 == MCInjector ==
 Use: Injecting exceptions and other data into Minecraft's source code to ensure it works properly.
@@ -28,8 +28,8 @@ Use: Patching out any errors in the decompiled Minecraft code.
 Developers: ChickenBones (original), TheCBProject (Java port), Minecraft Forge (fork)
 Original repository: https://github.com/Chicken-Bones/DiffPatch
 Java port repository: https://github.com/TheCBProject/DiffPatch
-Forked repository: https://github.com/MinecraftForge/DiffPatch
-License: MIT License, https://github.com/MinecraftForge/DiffPatch/blob/master/LICENSE.txt
+Forked repository: https://github.com/neoforged/DiffPatch
+License: MIT License, https://github.com/neoforged/DiffPatch/blob/master/LICENSE.txt
 
 == SpecialSource ==
 Use: Reobfuscating Minecraft source code.
@@ -39,6 +39,6 @@ License: https://github.com/md-5/SpecialSource/blob/master/LICENSE
 
 == BinaryPatcher ==
 Use: Patching minecraft jar with binary data files, primarily classes for modding purposes.
-Developers: Minecraft Forge
-Repository https://github.com/MinecraftForge/BinaryPatcher
-License: GNU Lesser General Public License v2.1, https://github.com/MinecraftForge/BinaryPatcher/blob/master/LICENSE.txt
+Developers: Neoforged
+Repository https://github.com/neoforged/InstallerTools
+License: GNU Lesser General Public License v2.1, https://github.com/neoforged/InstallerTools/blob/master/LICENSE.txt
