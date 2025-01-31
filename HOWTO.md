@@ -34,19 +34,19 @@ Two classes are installed into the "net/minecraft/src" package: ModLoader.java, 
 the base file you need to extend your ModLoader mod from. 
 
 If you want an example mod for Alpha 1.2.6 (as well as some documentation), check out [AncientMC's Ruby Mod](https://github.com/ancientmc/Alpha-Ruby-Mod).
-Note that this version is quite limited in its functionality. 
+Note that this version of ModLoader is quite limited in its functionality. 
 
 ### Running Minecraft ###
 Use the `runClient` Gradle task to run a local instance of the Minecraft client. Save data and other files are stored in the "run/" folder.
 
 ### Recompilation and Distribution ###
-To easily get your modded class files into an archive, run the Gradle task `makeZip`. This runs all the necessary steps to reobfuscate, recompile,
-and package your modded classes into a ZIP archive for you to share. 
+To easily get your modded class files into an archive, run the Gradle task `makeArchives`. This runs all the necessary steps to reobfuscate, recompile,
+and package your modded classes into two archives (ZIP and TAR/GZIP) for you to share. 
 
-Installing these files in a JAR outside of the ACP environment may vary depending on your launcher, but generally it will involve moving those class files
-into the JAR using an archive explorer (this is how mod installation was done back in the day!). Remember if you use ModLoader you will need to install it separately.
+Installing these files in a JAR outside the ACP environment may vary depending on your launcher, but generally it will involve moving those class files
+into the JAR using an archive explorer (this is how mod installation was done back in the day!). Remember if you use ModLoader (or any other library) you will need to install it separately.
 
-Your ZIP file will be located in the "build/modding/zip" directory.
+The ZIP and GZIP archives will be located in the "build/modding/archive/{modname}" directory.
 
 ### Making Patch Files ###
 By default, Git ignores any Minecraft source files. You are not allowed to share them online, even if modified.

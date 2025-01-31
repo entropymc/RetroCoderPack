@@ -60,11 +60,12 @@ tasks.withType(JavaExec) {
 }
 
 task decompile() {
+    group = 'decompile'
     dependsOn(':makeOriginalHashes')
 }
 
 task runClient(type: JavaExec) {
-    group = 'acp-run'
+    group = 'run'
     mainClass = 'acp.client.Start'
     classpath = sourceSets.main.runtimeClasspath
 }

@@ -1,4 +1,4 @@
-Beta 0.2.0-pre2 (2025-01-30)
+Beta 0.2.0 (2025-01-30)
 - Added TAR archive and GZIP compression support for class file export
 - Some internal changes to the ACP Gradle plugin.
 
