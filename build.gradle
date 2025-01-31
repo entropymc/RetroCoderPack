@@ -86,6 +86,7 @@ jar {
 FileFilter tempFilter = (File file) -> !file.name.equals(MC_VERSION + '.jar') && !file.name.endsWith('.json')
 FileFilter runFilter = (File file1) -> !file1.name.contains('resources') && !file1.name.contains('bin')
 
+// WARNING: running this will delete Minecraft's source code. Save any of your code before executing this task!
 clean {
     delete(file("${Paths.DIR_SRC}/net/"))
     delete(file("${Paths.DIR_SRC}/risugami/"))
